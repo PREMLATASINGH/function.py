@@ -5,3 +5,4 @@ def is_string_palindrome(s):
     # Check if the cleaned string is equal to its reverse
     return cleaned_s == cleaned_s[::-1]
 print(is_string_palindrome("A man a plan a canal Panama"))
+print(is_string_palindrome("Hello World"))
