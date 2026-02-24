@@ -6,3 +6,4 @@ def valide_email(email):
 print(valide_email("example@example.com"))
 print(valide_email("invalidemail.com"))
 print(valide_email("another@example"))
+print(valide_email("    @example.com"))
