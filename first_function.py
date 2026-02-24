@@ -15,3 +15,10 @@ print(subtract(10, 3))
 def multiply(a,b):
     return a*b
 print(multiply(4, 6))
+def divide(a,b):
+    if b != 0:
+        return a/b
+    else:
+        return "Cannot divide by zero"
+print(divide(10, 2))
+print(divide(10, 0))
