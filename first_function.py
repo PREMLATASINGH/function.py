@@ -21,4 +21,5 @@ def divide(a,b):
     else:
         return "Cannot divide by zero"
 print(divide(10, 2))
+
 print(divide(10, 0))
