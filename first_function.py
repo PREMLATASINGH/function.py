@@ -17,7 +17,7 @@ def multiply(a,b):
 print(multiply(4, 6))
 def divide(a,b):
     if b != 0:
-        return a/b
+        return a/b,a
     else:
         return "Cannot divide by zero"
 print(divide(10, 2))
@@ -38,3 +38,10 @@ print(sum_numbers(1, 2, 3, 4, 5))
 def print_info(**kwargs):
     return kwargs
 print(print_info(name="Adwik", age=25, city="Bangalore"))
+def print_info(*args, **kwargs):
+    for val in args:    
+        print(f"Argument: {val}")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+print_info("Hello", "World", name="Adwik", age=25)
+print_numbers(10, 20, 30)
