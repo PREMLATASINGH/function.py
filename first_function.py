@@ -12,3 +12,6 @@ print(add(5, 7))
 def subtract(a,b):
     return a-b  
 print(subtract(10, 3))
+def multiply(a,b):
+    return a*b
+print(multiply(4, 6))
