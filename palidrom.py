@@ -6,3 +6,4 @@ def is_string_palindrome(s):
     return cleaned_s == cleaned_s[::-1]
 print(is_string_palindrome("A man a plan a canal Panama"))
 print(is_string_palindrome("Hello World"))
+print(is_string_palindrome("Madam In Eden Im Adam"))
