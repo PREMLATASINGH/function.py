@@ -6,3 +6,6 @@ def even_or_odd(num):
     
 print(even_or_odd(34))
 print(even_or_odd(27))
+def add(a,b):
+    return a+b
+print(add(5, 7))
