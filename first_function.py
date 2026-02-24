@@ -43,5 +43,4 @@ def print_info(*args, **kwargs):
         print(f"Argument: {val}")
     for key, value in kwargs.items():
         print(f"{key}: {value}")
-print_info("Hello", "World", name="Adwik", age=25)
-print_numbers(10, 20, 30)
+print_info("Hello", "World", name="Adwik", age=25, city="Bangalore")
