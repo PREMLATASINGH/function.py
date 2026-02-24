@@ -9,4 +9,5 @@ def factorial(n):
             result *= i
         return result
 print(factorial(5)) 
-print(factorial(0)) 
+print(factorial(0))
+print(factorial(-3)) 
