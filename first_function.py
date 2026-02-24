@@ -29,3 +29,6 @@ def greet(name="Guest"):
 print(greet("Adwik"))
 print(greet("uday"))
 print(greet())
+def print_numbers(*args):
+    return args
+print(print_numbers(1, 2, 3, 4, 5))
