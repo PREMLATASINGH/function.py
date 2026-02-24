@@ -7,3 +7,4 @@ def is_string_palindrome(s):
 print(is_string_palindrome("A man a plan a canal Panama"))
 print(is_string_palindrome("Hello World"))
 print(is_string_palindrome("Madam In Eden Im Adam"))
+print(is_string_palindrome("Not a palindrome"))
