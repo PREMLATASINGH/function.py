@@ -23,8 +23,9 @@ def divide(a,b):
 print(divide(10, 2))
 
 print(divide(10, 0))
-def greet(name):
+def greet(name="Guest"):
     return f"hello, {name} welcome to india!"
 
 print(greet("Adwik"))
 print(greet("uday"))
+print(greet())
