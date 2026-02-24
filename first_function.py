@@ -35,3 +35,6 @@ print(print_numbers(1, 2, 3, 4, 5,"prema"))
 def sum_numbers(*args):
     return sum(args)    
 print(sum_numbers(1, 2, 3, 4, 5))
+def print_info(**kwargs):
+    return kwargs
+print(print_info(name="Adwik", age=25, city="Bangalore"))
