@@ -12,3 +12,5 @@ def is_strong_password(password):
     return True
 print(is_strong_password("Password123!"))
 print(is_strong_password("weakpass"))
+print(is_strong_password("Short1!"))
+print(is_strong_password("NoSpecialChar1"))
