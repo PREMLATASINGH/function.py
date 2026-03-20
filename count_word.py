@@ -14,4 +14,4 @@ text = "Hello world! Hello everyone. Welcome to the world of programming."
 frequency = count_word_frequency(text)
 print(frequency)
 print(count_word_frequency("This is a test. This test is only a test."))
-print(count_word_frequency("Python is great. Python is easy to learn."))    
+print(count_word_frequency("Python is great. Pandas is also great library."))    
