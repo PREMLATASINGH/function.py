@@ -11,3 +11,4 @@ cart = [
 print(shopping_cart(cart))
 print(shopping_cart([]))
 print(shopping_cart([{'name': 'milk', 'price': 1.5, 'quantity': 2}]))
+print(shopping_cart([{'name': 'soda', 'price': 5.5, 'quantity': 4}]))
