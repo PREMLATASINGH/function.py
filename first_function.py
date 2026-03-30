@@ -44,3 +44,4 @@ def print_info(*args, **kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 print_info("Hello", "World", name="Adwik", age=25, city="Bangalore")
+print_info("Hello", "World", name="Adu", age=20, city="Bangalore")
