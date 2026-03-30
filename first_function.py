@@ -49,5 +49,6 @@ print_info("Hi", "World", name="Adwik", age=25, city="new york")
 
 print_info("Hi", "World", name="UDAY", age=23, city="new york")
 print_info("Hi", "World", name="baij", age=21, city="boston")
+print_info("Hi", "everyone", name="UDAY", age=21, city="new york")
 
 
